@@ -100,7 +100,7 @@ h1 img {
     flex-direction: row;
 }
 
-.searchZone i {
+.iconLocation {
     background-color: var(--main-bg-color);
     width: 50px;
     height: 49px;
@@ -119,7 +119,7 @@ h1 img {
     text-align: center;
 }
 
-.searchZone input[type="button"] {
+.searchZone button {
     border : none;
     background-color: var(--main-color);
     border-radius: 0px 15px 15px 0px;
@@ -127,6 +127,14 @@ h1 img {
     font-size: 18px;
     padding-left: 17px;
     padding-right: 17px;
+}
+
+.desktop {
+    display: inline;
+}
+
+.no-desktop {
+    display: none;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -235,4 +243,13 @@ h1 img {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+
+    .desktop {
+        display: none;
+    }
+    
+    .no-desktop {
+        display: inline;
+        color: var(--main-bg-color);
+    }
 }
