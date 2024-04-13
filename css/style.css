@@ -93,6 +93,42 @@ h1 img {
     height: 19px;
 }
 
+/****** searchZone ******/
+
+.searchZone {
+    display: flex;
+    flex-direction: row;
+}
+
+.searchZone i {
+    background-color: var(--main-bg-color);
+    width: 50px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 0px 0px 15px;
+    color: black;
+}
+
+.searchZone input[type="text"] {
+    border-top: 1px solid var(--main-bg-color);
+    border-bottom: 1px solid var(--main-bg-color);
+    border-left: none;
+    border-right: none;
+    text-align: center;
+}
+
+.searchZone input[type="button"] {
+    border : none;
+    background-color: var(--main-color);
+    border-radius: 0px 15px 15px 0px;
+    color: white;
+    font-size: 18px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
