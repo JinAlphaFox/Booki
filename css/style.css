@@ -77,13 +77,13 @@ ul {
     margin : 0px;
 }
 
-li {
+nav li {
     padding: 20px;
     color : black;
     font-size: 16px;
 }
 
-li:hover {
+nav li:hover {
     border-top: 2px solid var(--main-color);
     color : var(--main-color);
     cursor: pointer;
@@ -360,7 +360,28 @@ h1 img {
     font-size: 16px;
 }
 
+/****** Footer ***********/
 
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: var(--main-bg-color);
+    padding: 20px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    gap : 15px;
+    width: 33%;
+}
+
+.titreFooter {
+    font-weight: bold;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
