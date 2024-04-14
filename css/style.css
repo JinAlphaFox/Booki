@@ -389,6 +389,20 @@ footer ul {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    .titreFiltre {
+        width: 100%;
+    }
+
+    .filterZone {
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+    }
+
+    .buttonFilter {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -418,6 +432,10 @@ footer ul {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+
+    .activites-cards img {
+        height: 200px;
     }
 }
 
