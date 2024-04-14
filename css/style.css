@@ -93,11 +93,26 @@ h1 img {
     height: 19px;
 }
 
-/****** searchZone ******/
+/****** section recherche ******/
+
+.recherche {
+    display: flex;
+    flex-direction: column;
+}
+
+.avecSous-titre {
+    margin-bottom: 5px;
+}
+
+.sous-titre {
+    margin-top: 5px;
+}
 
 .searchZone {
     display: flex;
     flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .iconLocation {
