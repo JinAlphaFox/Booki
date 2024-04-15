@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin-top: 0px;
 }
 
 .main-container {
@@ -177,9 +178,10 @@ h1 img {
     margin: auto;
 }
 
-.buttonFilter h3 {
+.buttonFilter span {
     margin: auto;
     padding-left: 10px;
+    font-weight: bold;
 }
 
 .buttonFilter:hover {
