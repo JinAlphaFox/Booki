@@ -160,6 +160,7 @@ header img {
 .titreFiltre {
     display: flex;
     align-items: center;
+    font-size: 1.1em;
     margin-top: 0px;
     margin-bottom: 0px;
     height: 100%;
@@ -168,7 +169,7 @@ header img {
 .buttonFilter {
     display: flex;
     flex-direction: row;
-    padding: 4px 19px 4px 19px;
+    padding: 4px 18px 4px 18px;
     height: 100%;
     margin-left: 17px;
     background-color: white;
@@ -232,18 +233,19 @@ header img {
 .hebergements-cards {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
 }
 
 .hebergements-cards a {
     width: 31%;
+    margin-top: 33px;
 }
 
 .hebergements-cards .card {
     display: flex;
     flex-direction: column;
-    margin-top: 33px;
+    height: 100%;
 }
 
 .hebergements-cards img {
@@ -333,7 +335,6 @@ header img {
 
 /****** Activités ***********/
 .activites {
-    width:100%;
     margin-top: 30px;
     display: flex;
     flex-direction: column;
@@ -343,15 +344,17 @@ header img {
 .activites-cards {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 20px;
 }
 
-.activites-cards .card {
+.activites-cards a {
     display: flex;
-    flex-direction: column;
     margin-top: 33px;
     width: 22.7%;
+}
+
+.activites-cards .card {
     padding: 0px;
 }
 
@@ -418,7 +421,7 @@ footer ul {
 
     .buttonFilter {
         margin-left: 0px;
-        margin-right: 10px;
+        margin-right: 8px;
     }
 
     .hebergements-and-populaires {
@@ -617,6 +620,7 @@ footer ul {
         gap: 15px;
     }
 
+    .activites-cards a,
     .activites-cards .card {
         width: 100%;
     }
